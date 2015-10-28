@@ -1,0 +1,76 @@
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Chewy);
+
+body {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    background-color: black;
+}
+
+.jumbotron {
+    text-align: center;
+    margin-top: 1em;
+}
+
+h1 {
+    font-family: 'Chewy', 'Open Sans', sans-serif;
+    font-size: 60px;
+}
+
+#buy {
+    font-size: 2em;
+}
+
+
+#product {
+    text-align: center;
+    margin-bottom: 2em;
+    margin-top: 1em;
+    padding: 1em;
+    border-radius: 15px;
+    background-color: white;
+}
+
+#description {
+    padding-left: 4em;
+    padding-right: 4em;
+    margin-top: 3em;
+    text-indent: 4em;
+}
+
+#comment {
+    height: 10em;
+}
+
+#review-writer {
+    background-color: white;
+    border-radius: 15px;
+    padding: 2em;
+    margin-bottom: 2em;
+}
+
+img {
+    height: 20em;
+    
+}
+
+#list {
+    padding: 0px;
+    margin-right: 1em;
+    maring-bottom: 4em;
+}
+
+#review-item {
+    margin-top: 1em;
+    padding: 2em;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 15px;
+}
+
+@media screen and (max-width: 992px) {
+    .no-mobile {
+        display: none;
+    }
+}
